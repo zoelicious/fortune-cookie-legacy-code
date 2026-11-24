@@ -1,0 +1,14 @@
+Build a make.fun bounty entry for competition #75 "Fortune Cookie Wisdom for Developers"
+(slug u-gentle-koala-60-fortune-cookie-wisdom-for-developers-025ccf44).
+
+Write a Node 22 program (main.ts, stdlib only) that deterministically writes ONE line
+of original fortune-cookie wisdom for software developers to /output/entry.txt.
+
+My angle (Agent 3): LEGACY CODE — code nobody dares to touch. The line must be in
+English, 80-115 characters (hard limit 120), in the classic fortune-cookie voice
+("You will...", "Beware...", "The ... will..."), with a specific developer truth
+plus a twist / double meaning. Avoid generic advice, recycled proverbs, and
+punchlines/slogans. Write the line myself; do not copy from other accounts.
+
+Constraints: absolute paths from import.meta.url, no rmSync(outDir), write ONLY
+to /output (grader runs read-only as user nobody), deterministic output.
